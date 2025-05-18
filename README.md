@@ -30,5 +30,39 @@ tcp-chat/
 
 1. Clone this repository:
    ```bash
-   git clone (https://github.com/EzerAbed/TCP-Chat/tree/main)
-   cd tcp-chat-console-app
+   gh repo clone EzerAbed/TCP-Chat
+   cd TCP-Chat
+
+2. Install Dependencies
+   ```bash
+   npm install
+
+3. Start the Server
+   ```bash
+   node server.js
+
+4. Start a Client
+   Open a new terminal for each client:
+   ```bash
+   node client.js
+
+🧪 Example Usage
+Once the server is running, each connected client can send messages that will be broadcast to all other connected clients.
+   ```bash
+   You: Hello world!
+   Client 2: Hey there!
+   Client 3: 👋
+   ```
+
+📚 Technologies Used
+   - Node.js
+   - `net` module (built-in TCP library)
+
+📌 TODOs
+   -  Add user authentication
+   -  Improve private messaging
+   -  Improve error handling and reconnections
+   -  Create a GUI client
+
+🧑‍💻 Author
+Abed Ezer
