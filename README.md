@@ -30,5 +30,5 @@ tcp-chat/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/tcp-chat-console-app.git
+   git clone (https://github.com/EzerAbed/TCP-Chat/tree/main)
    cd tcp-chat-console-app
